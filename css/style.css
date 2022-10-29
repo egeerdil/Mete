@@ -115,7 +115,7 @@
 .hero-header {
     background: url(../img/anasayfa.jpeg) top right no-repeat;
     background-size: cover;
-    filter: blur(4px);
+    
 }
 
 .btn-play {
