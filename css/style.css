@@ -10,7 +10,7 @@
 [class*=" flaticon-"]:before,
 [class^=flaticon-]:after,
 [class*=" flaticon-"]:after {
-    font-size: inherit;
+    font-size: 24px;
     margin-left: 0;
 }
 
