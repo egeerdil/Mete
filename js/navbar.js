@@ -18,7 +18,7 @@ class Salutation extends HTMLElement {
                    <!-- <a href="#google" class="dropdown-item">Yönetim</a>       
                         <a href="yonetim.html" class="dropdown-item">Yönetim</a> -->
                         <a href="vizyon.html" class="dropdown-item">Vizyon ve Misyon</a>
-                        <a href="ortak.html" class="dropdown-item">Çözüm Ortakları</a>
+                        <a href="ortak.html" class="dropdown-item">Ortaklıklar ve İş Birlikleri</a>
                     </div>
                 </div>
                  <div class="nav-item dropdown">
