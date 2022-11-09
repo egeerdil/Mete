@@ -31,6 +31,13 @@
     <script src="./js/navbar.js"></script>
     
     <style>
+        
+     jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
+    });
+});
+        
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -74,8 +81,8 @@ tr:nth-child(even) {
     <th style="color=#014B6E">Emlak Tipi</th>
      <th style="color=#014B6E">İmar Durumu</th>
   </tr>
-    <a href="https://htmlcodex.com">
-  <tr>
+   
+  <tr class='clickable-row' data-href='url://google.com/'>
    
    <td> <img src="img/tamam1.jpg" border=3 height=100 width=100 ></td>
     <td>Maria Anders</td>
@@ -84,7 +91,7 @@ tr:nth-child(even) {
       <td>Canada</td>
   </tr>
   
-  <tr>
+  <tr  class='clickable-row' data-href='url://link-for-first-row/>
     <td><img src="img/tamam1.jpg" border=3 height=100 width=100 ></td>
     <td>Francisco Chang</td>
     <td>Mexico</td>
