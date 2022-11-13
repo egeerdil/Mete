@@ -28,6 +28,25 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
      <script src="./js/navbar.js"></script>
+    	<script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/Na1s4kDgiwczP1kQ/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
 </head>
 
 <body>
@@ -45,22 +64,22 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-7">
-                    <form>
+                    <form id="myForm">
                         <div class="row g-3">
                             <div class="col-12">
-                                <input type="text" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;">
+                                <input name="name" type="text" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="email" class="form-control bg-light border-0 px-4" placeholder="Your Email" style="height: 55px;">
+                                <input name="email" type="email" class="form-control bg-light border-0 px-4" placeholder="Your Email" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control bg-light border-0 px-4" placeholder="Subject" style="height: 55px;">
+                                <input name="subject" type="text" class="form-control bg-light border-0 px-4" placeholder="Subject" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control bg-light border-0 px-4 py-3" rows="8" placeholder="Message"></textarea>
+                                <textarea name="message" class="form-control bg-light border-0 px-4 py-3" rows="8" placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                <button onclick='SubForm()' class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>
