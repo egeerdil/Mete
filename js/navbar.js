@@ -14,21 +14,21 @@ class Salutation extends HTMLElement {
                 <div class="nav-item dropdown">
                     <a href="about.html" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Kurumsal</a>
                     <div class="dropdown-menu m-0">
-                        <a href="about.html" class="dropdown-item">Hakkimizda</a>
-                   <!-- <a href="#google" class="dropdown-item">Yönetim</a>       
+                        <a href="about.html" class="dropdown-item">HAKKIMIZDA</a>
+                   <!-- <a href="#google" class="dropdown-item">YÖNETİM</a>       
                         <a href="yonetim.html" class="dropdown-item">Yönetim</a> -->
-                        <a href="vizyon.html" class="dropdown-item">Vizyon ve Misyon</a>
-                        <a href="ortak.html" class="dropdown-item">Ortaklıklar ve İş Birlikleri</a>
+                        <a href="vizyon.html" class="dropdown-item">VİZYON VE MİSYONn</a>
+                        <a href="ortak.html" class="dropdown-item">ORTAKLIKLAR VE İŞBİRLİKLERİ</a>
                     </div>
                 </div>
                  <div class="nav-item dropdown">
-                    <a href="tamamlanan.html" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Projelerimiz</a>
+                    <a href="tamamlanan.html" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">PROJELERİMİZ</a>
                     <div class="dropdown-menu m-0">
                         <a href="tamamlanan.html" class="dropdown-item">Tamamlanan</a>
                         <a href="courosel.html" class="dropdown-item">Devam Eden</a>
                    </div>
                 </div>
-                <a href="product.html" class="nav-item nav-link text-white">Satıştakiler</a>
+                <a href="product.html" class="nav-item nav-link text-white">SATIŞTAKİLER</a>
                 <!--<a href="#google">Asagiya git</a>-->
                 <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">İletişim <i class="bi bi-arrow-right"></i></a>
             </div>
