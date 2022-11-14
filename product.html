@@ -52,15 +52,49 @@ td, th {
 tr:nth-child(even) {
   background-color: #F3F3F3;
 }
+
+        
+  .box {
+    height: auto;
+    padding: 50px;
+    background-color: red;
+}
+.row {
+    display: flex;
+    flex-wrap:wrap;
+}
+.cell {
+    flex: 1 1 200px;
+    height: 50px;
+    border:1px solid black;
+    background-color: blue;
+}
+        
+        
 </style>
 </head>
 
+    
+    
 <body>
     <!-- Navbar Start -->
      <salutation-element></salutation-element>
 
+    
     <!-- Navbar End -->
 
+    
+    
+   <div class="box">
+    <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+</div>
+    
+    
     <!-- Products Start -->
    <div class="container-fluid py-5">
         <div id="google" class="container">
