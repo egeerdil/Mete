@@ -24,11 +24,11 @@ class Salutation extends HTMLElement {
                  <div class="nav-item dropdown">
                     <a href="tamamlanan.html" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">PROJELERİMİZ</a>
                     <div class="dropdown-menu m-0">
-                        <a href="tamamlanan.html" class="dropdown-item">Tamamlanan</a>
-                        <a href="courosel.html" class="dropdown-item">Devam Eden</a>
+                        <a href="tamamlanan.html" class="dropdown-item">Tamamlanan Projeler</a>
+                        <a href="courosel.html" class="dropdown-item">Devam Eden Projeler</a>
                    </div>
                 </div>
-                <a href="product.html" class="nav-item nav-link text-white">SATIŞTAKİLER</a>
+                <a href="product.html" class="nav-item nav-link text-white">SATIŞ LİSTESİ</a>
                 <!--<a href="#google">Asagiya git</a>-->
                 <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">İletişim <i class="bi bi-arrow-right"></i></a>
             </div>
