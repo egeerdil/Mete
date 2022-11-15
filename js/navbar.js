@@ -23,7 +23,7 @@ class Salutation extends HTMLElement {
                 </div>
                  <div class="nav-item dropdown">
                     
-                        <a href="tamamlanan.html" class="nav-item nav-link text-white">Tamamlanan Projeler</a>
+                        <a href="tamamlanan.html" class="nav-item nav-link text-white">PROJELERİMİZ</a>
                         
                 </div>
                 <a href="product.html" class="nav-item nav-link text-white">SATIŞ LİSTESİ</a>
