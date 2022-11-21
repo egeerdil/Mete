@@ -29,6 +29,25 @@
     <link href="css/style.css" rel="stylesheet">
     <script src="./js/footer.js"></script>
     <script src="./js/navbar.js"></script>
+    <style>
+        @media only screen and (max-device-width: 480px) {
+      .show-mobile {
+        display: block;
+      }
+      .hide-mobile {
+        display: none;
+      }
+    }
+
+ @media only screen and (min-device-width: 481px) {
+      .show-mobile {
+        display: none;
+      }
+      .hide-mobile {
+        display: block;
+      }
+    }
+    </style>
 </head>
 
 <body>
@@ -37,7 +56,7 @@
     <!-- Navbar End -->
 
     <!-- Products Start -->
-   <div class="container-fluid py-5">
+   <div class="container-fluid py-5 hide-mobile"></div>">
         <div id="google" class="container" >
             <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
                   <h2>Projelerimiz</h2>
@@ -143,8 +162,9 @@
     </div>
     <!-- Products End -->
 
-
+<!-- Mobile Start -->
   
+<!-- Mobile End -->
 
 
     
