@@ -42,8 +42,10 @@
      </style>
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-        <script src="./js/navbar.js"></script>
-    <script src="./js/footer.js"></script>
+     <!--     <script src="./js/navbar.js"></script>
+    <script src="./js/footer.js"></script>-->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     
 </head>
 
@@ -52,7 +54,22 @@
     <salutation-element></salutation-element>
     <!-- Navbar End -->
 
-    
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                        Collapsible Group Item #1
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- About Start -->
    <br>
    <div >
