@@ -14,11 +14,11 @@ class Footer extends HTMLElement {
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Ana Sayfalar</h5>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Ana Sayfa</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Hakkımızda</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Projelerimiz</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Satıştakiler</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>İletişim</a>
+                        <a class="text-body mb-2" href=""https://metedeneme2.netlify.app/index.html><i class="bi bi-arrow-right text-primary me-2"></i>Ana Sayfa</a>
+                        <a class="text-body mb-2" href="https://metedeneme2.netlify.app/about.html"><i class="bi bi-arrow-right text-primary me-2"></i>Hakkımızda</a>
+                        <a class="text-body mb-2" href="https://metedeneme2.netlify.app/tamamlanan.html"><i class="bi bi-arrow-right text-primary me-2"></i>Projelerimiz</a>
+                        <a class="text-body mb-2" href="https://metedeneme2.netlify.app/product.html"><i class="bi bi-arrow-right text-primary me-2"></i>Satıştakiler</a>
+                        <a class="text-body mb-2" href="https://metedeneme2.netlify.app/contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>İletişim</a>
                         
                     </div>
                 </div>
@@ -26,11 +26,10 @@ class Footer extends HTMLElement {
                     <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Detay Sayfalar</h5>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Hakkımızda</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Vizyon ve Misyon/a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Ortaklıklar ve İşbirlikleri</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Tamamlanan Projeelr</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Devam Eden Projeler</a>
-                       
+                        <a class="text-body mb-2" href="https://metedeneme2.netlify.app/vizyon.html"><i class="bi bi-arrow-right text-primary me-2"></i>Vizyon ve Misyon/a>
+                        <a class="text-body mb-2" href="https://metedeneme2.netlify.app/ortak.html"><i class="bi bi-arrow-right text-primary me-2"></i>Ortaklıklar ve İşbirlikleri</a>
+                        <a class="text-body mb-2" href="https://metedeneme2.netlify.app/tamamlanan.html"><i class="bi bi-arrow-right text-primary me-2"></i>Tamamlanan Projeelr</a>
+                        
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -55,7 +54,7 @@ class Footer extends HTMLElement {
                     <p class="mb-md-0">&copy; <a class="text-white" href="#">Your Site Name</a>. All Rights Reserved.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Ege Erdil</a></p>
+                    <p class="mb-0">Designed by <a class="text-white">HTML Ege Erdil</a></p>
                 </div>
             </div>
         </div>
