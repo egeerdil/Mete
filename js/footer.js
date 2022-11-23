@@ -26,9 +26,9 @@ class Footer extends HTMLElement {
                     <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Detay Sayfalar</h5>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Hakkımızda</a>
-                        <a class="text-body mb-2" href="vizyon.html"><i class="bi bi-arrow-right text-primary me-2"></i>Vizyon ve Misyon/a>
+                        <a class="text-body mb-2" href="vizyon.html"><i class="bi bi-arrow-right text-primary me-2"></i>Vizyon ve Misyon</a>
                         <a class="text-body mb-2" href="ortak.html"><i class="bi bi-arrow-right text-primary me-2"></i>Ortaklıklar ve İşbirlikleri</a>
-                        <a class="text-body mb-2" href="tamamlanan.html"><i class="bi bi-arrow-right text-primary me-2"></i>Tamamlanan Projeelr</a>
+                        <a class="text-body mb-2" href="tamamlanan.html"><i class="bi bi-arrow-right text-primary me-2"></i>Tamamlanan Projeler</a>
                         
                     </div>
                 </div>
