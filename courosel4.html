@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ARTI - Gayrimenkul Geliştirme ve Yatırım A.Ş.</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <script src="./js/navbar.js"></script>
+    <script src="./js/footer.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <salutation-element></salutation-element>
+    <!-- Navbar End -->
+    
+ 
+    
+    <!-- Coursel -->
+    <div>
+        <div align="center">
+           <br><br>
+          <h2> Tamamlanan Projelerimiz </h2><br> 
+          <h4>Bahçeşehir Yerleşim Alanı</h4><br><br><br>
+      
+        </div>
+          <div class="row">
+      
+            <div class="col" align="center">
+
+    <div class="row" style="cursor:pointer; width:40%; border-style: solid";  >
+
+<div class="mySlides">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/tamam7.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/tamam8.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/tamam9.jpg" style="width:100%">
+  
+</div>
+
+
+<!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+--> 
+</div>
+<br>
+ 
+<div class="row" style="cursor:pointer; width:40%; border-style: solid";  >
+    <div class="column" onclick="currentSlide(1)">
+      <img src="img/tamam7.jpg" style="width:100%; aspect-ratio:1 / 1;">
+    </div>
+    <div class="column" onclick="currentSlide(2)">
+      <img src="img/tamam8.jpg" alt="Forest" style="width:100%; aspect-ratio : 1 / 1;">
+    </div>
+    <div class="column"  onclick="currentSlide(3)">
+      <img src="img/tamam9.jpg" alt="Mountains" style="width:100%; aspect-ratio : 1 / 1;">
+    </div>
+    <div class="column" onclick="currentSlide(1)">
+      <img src="img/tamam7.jpg" style="width:100%; aspect-ratio:1 / 1;">
+    </div>
+    <div class="column" onclick="currentSlide(2)">
+      <img src="img/tamam8.jpg" alt="Forest" style="width:100%; aspect-ratio : 1 / 1;">
+    </div>
+    
+
+</div>
+</div>  
+  
+    
+    <div class="col">
+    
+    
+       <p> <strong>Lokasyon:</strong> İzmir İli Seferihisar İlçesi </p>
+       <p>  <strong>Nitelik:</strong>Konut </p>
+       <p>  <strong>Yıl:</strong>  2011</p>
+       <p>  <strong>Alan Büyüklüğü:</strong>  330.000 m2</p>
+       <p>  <strong>Hedeflenen Yaklaşık Nüfus:</strong>  3.200 kişi</p>
+ 
+   
+    <div/>
+<!-- Coursel  End-->    
+       
+    
+      <!-- Footer Start -->
+    <footer-element></footer-element>
+    <!-- Footer End -->
+    
+    
+    
+    
+    
+    
+    
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
