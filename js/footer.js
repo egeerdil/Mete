@@ -5,7 +5,7 @@ class Footer extends HTMLElement {
         <div class="container pt-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">İletişime Geç</h5>
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">İletişim</h5>
                     <p class="mb-4"></p>
                     <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>1593/1 Sokak No:6 C Blok Daire:93 Bayraklı/İzmir</p>
                     <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@artiyatirimas.com</p>
