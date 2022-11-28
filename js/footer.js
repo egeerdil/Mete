@@ -12,23 +12,23 @@ class Footer extends HTMLElement {
                     <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>0232 464 50 90</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Ana Sayfalar</h5>
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Sekmeler</h5>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-body mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Ana Sayfa</a>
                         <a class="text-body mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>Hakkımızda</a>
                         <a class="text-body mb-2" href="tamamlanan.html"><i class="bi bi-arrow-right text-primary me-2"></i>Projelerimiz</a>
-                        <a class="text-body mb-2" href="product.html"><i class="bi bi-arrow-right text-primary me-2"></i>Satıştakiler</a>
-                        <a class="text-body mb-2" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>İletişim</a>
+                        <a class="text-body mb-2" href="product.html"><i class="bi bi-arrow-right text-primary me-2"></i>Satış Listesi</a>
+                        
                         
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Detay Sayfalar</h5>
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Sekmeler</h5>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Hakkımızda</a>
                         <a class="text-body mb-2" href="vizyon.html"><i class="bi bi-arrow-right text-primary me-2"></i>Vizyon ve Misyon</a>
                         <a class="text-body mb-2" href="ortak.html"><i class="bi bi-arrow-right text-primary me-2"></i>Ortaklıklar ve İşbirlikleri</a>
-                        <a class="text-body mb-2" href="tamamlanan.html"><i class="bi bi-arrow-right text-primary me-2"></i>Tamamlanan Projeler</a>
+                        <a class="text-body mb-2" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>İletişim</a>
                         
                     </div>
                 </div>
