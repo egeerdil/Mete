@@ -28,7 +28,7 @@ class Salutation extends HTMLElement {
                 </div>
                 <a href="product.html" class="nav-item nav-link text-white">SATIŞ LİSTESİ</a>
                 <!--<a href="#google">Asagiya git</a>-->
-                <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">İletişim <i class="bi bi-arrow-right"></i></a>
+                <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">İLETİŞİM<i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </nav>
